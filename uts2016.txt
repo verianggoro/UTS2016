@@ -1,0 +1,4 @@
+Baju     				2					40000
+Celana   				3					30000
+Kaoskaki 				5					10000
+Sapatu   				1					90000
