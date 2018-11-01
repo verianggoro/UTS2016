@@ -9,8 +9,8 @@ public class Nomor1 {
     String [][] almat = new String[3][3];
         System.out.println("Masukan Data Diri Anda");
         System.out.println("===============================");
-        try {for (int x = 0; x < 1; x++) {
-            for (int y = 0; y < 3; y++) {
+        try {for (int x = 0; x < 1; x++) { //untuk mendefinisikan kolom
+            for (int y = 0; y < 3; y++) {   //untuk mendefinisikan baris
                 System.out.print("No Induk          : ");
                 NPM[x][y] = dataIn.readLine();
                 System.out.print("Nama              : ");

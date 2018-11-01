@@ -18,7 +18,7 @@ public class Nomor4 {
             int [] tampung = new int[100];
             int sum = 0;
             int x=0;
-            while (((text = bacaBuf.readLine()) != null) && (x<4 )) {
+            while (((text = bacaBuf.readLine()) != null) && (x< 4 )) {
                 char satuan = text.charAt(13);
                 int convertS = Integer.parseInt(String.valueOf(satuan));
                 String harga = text.substring(19);
