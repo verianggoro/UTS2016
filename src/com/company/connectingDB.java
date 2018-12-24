@@ -11,8 +11,9 @@ public class connectingDB {
             Statement st = connection.createStatement();
             ResultSet rs = st.executeQuery("SELECT salesman, amount FROM sales ");
             System.out.println("Salesman \t\t  amount \t\t Result");
+            int batas = 7000000;
             while (rs.next()) {
-                if((rs.getString("amount").equals("7000000"))&& (rs.getString("amount").equals("7000000"))){
+                if(rs.getInt("amount")>= batas){
                     System.out.print(rs.getString("salesman") + "\t\t\t");
                     System.out.print(rs.getString("amount") + "\t\t\t");
                     System.out.print("Perform");
